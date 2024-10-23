@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizez</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz</h1>
+        <div id="quiz">
+            <p>Which is the correct way to write a comment in JavaScript?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="{# ... #}">{# ... #}</label></li>
+                <li><label><input type="radio" name="answer" value="!--- .... ---!">!--- .... ---!</label></li>
+                <li><label><input type="radio" name="answer" value="// ....">// ....</label></li>
+                <li><label><input type="radio" name="answer" value="\\ ...">\\ ...</label></li>
+            </ul>
+            <p>What does HTML stand for?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="Hypertext Markup Language">Hypertext Markup Language</label></li>
+                <li><label><input type="radio" name="answer" value="Hightext Machine language">Hightext Machine language</label></li>
+                <li><label><input type="radio" name="answer" value="Hyperlink and text Markup Language">Hyperlink and text Markup Language</label></li>
+                <li><label><input type="radio" name="answer" value="None Of the above">None Of the above</label></li>
+            </ul>
+            <p>Inside which HTML element do we put the JavaScript?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="Scripting">Scripting</label></li>
+                <li><label><input type="radio" name="answer" value="js">js</label></li>
+                <li><label><input type="radio" name="answer" value="script">script</label></li>
+                <li><label><input type="radio" name="answer" value="JavaScript">JavaScript</label></li>
+            </ul>
+            <p>How do you write "Hello World" in an alert box?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="msg(HELLO WORLD!)">msg(HELLO WORLD!)</label></li>
+                <li><label><input type="radio" name="answer" value="msgbox(HELLO WORLD!)">msgbox(HELLO WORLD!)</label></li>
+                <li><label><input type="radio" name="answer" value="alertbox(HELLO WORLD!)">alertbox(HELLO WORLD!)</label></li>
+                <li><label><input type="radio" name="answer" value="alert(HELLO WORLD!)">alert(HELLO WORLD!)</label></li>
+            </ul>
+            <p>How do you create a function in JavaScript?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="function=myFunction()">function=myFunction()</label></li>
+                <li><label><input type="radio" name="answer" value="function myFunction()">function myFunction()</label></li>
+                <li><label><input type="radio" name="answer" value="function:myFunction()">function:myFunction()</label></li>
+            </ul>
+            <p>How to write an IF statement in JavaScript?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="if (i==5)">if (i==5)</label></li>
+                <li><label><input type="radio" name="answer" value="if i=5">if i=5</label></li>
+                <li><label><input type="radio" name="answer" value="if i=5 then">if i=5 then</label></li>
+            </ul>
+            <p>What is the correct way to write a JavaScript array?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="var colors =red,green,blue">var colors ="red","green","blue"</label></li>
+                <li><label><input type="radio" name="answer" value="var colors =[red,green,blue]">var colors =[red,green,blue]</label></li>
+                <li><label><input type="radio" name="answer" value="var colors =1=(red),2=(green),3=(blue)">var colors =1=(red),2=(green),3=(blue)</label></li>
+            </ul>
+            <p>Which event occurs when the user clicks on an HTML element?</p>
+            <ul>
+                <li><label><input type="radio" name="answer" value="onchange">onchange</label></li>
+                <li><label><input type="radio" name="answer" value="onclick">onclick</label></li>
+                <li><label><input type="radio" name="answer" value="onmouseclick">onmouseclick</label></li>
+            </ul>
+        </div>
+        <button id="submit">Submit AnswerS</button>
+        <div id="result"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
